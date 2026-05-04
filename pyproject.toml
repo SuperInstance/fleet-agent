@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "fleet-agent"
-version = "0.2.0"
+version = "0.2.1"
 description = "Shared base class for all SuperInstance domain agents — now with H1 emergence, holonomy consensus, Pythagorean48 encoding"
 requires-python = ">=3.10"
 dependencies = []
@@ -14,3 +14,6 @@ dev = ["pytest"]
 
 [project.scripts]
 fleet-agent = "fleet_agent.base:FleetAgent.cli"
+
+[tool.setuptools]
+packages = ["fleet_agent"]

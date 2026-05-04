@@ -1,0 +1,2 @@
+[console_scripts]
+fleet-agent = fleet_agent.base:FleetAgent.cli
