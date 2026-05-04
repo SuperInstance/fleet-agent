@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: fleet-agent
+Version: 0.2.0
+Summary: Shared base class for all SuperInstance domain agents — now with H1 emergence, holonomy consensus, Pythagorean48 encoding
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

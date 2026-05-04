@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fleet-agent"
-version = "0.1.0"
-description = "Shared base class for all SuperInstance domain agents"
+version = "0.2.0"
+description = "Shared base class for all SuperInstance domain agents — now with H1 emergence, holonomy consensus, Pythagorean48 encoding"
 requires-python = ">=3.10"
 dependencies = []
 

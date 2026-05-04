@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/fleet_agent.egg-info/PKG-INFO
+src/fleet_agent.egg-info/SOURCES.txt
+src/fleet_agent.egg-info/dependency_links.txt
+src/fleet_agent.egg-info/entry_points.txt
+src/fleet_agent.egg-info/requires.txt
+src/fleet_agent.egg-info/top_level.txt
