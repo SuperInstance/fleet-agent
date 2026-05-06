@@ -5,9 +5,26 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fleet-agent"
 version = "0.2.1"
-description = "Shared base class for all SuperInstance domain agents — now with H1 emergence, holonomy consensus, Pythagorean48 encoding"
+description = "Fleet coordination using constraint theory and rigidity mathematics"
+readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.10"
-dependencies = []
+authors = [{name = "Cocapn Fleet", email = "fleet@cocapn.ai"}]
+keywords = ["fleet", "coordination", "constraint-theory", "holonomy", "consensus", "rigidity", "pythagorean", "agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Application Tools",
+    "Topic :: System :: Distributed Computing",
+]
+
+[project.urls]
+"Repository" = "https://github.com/SuperInstance/fleet-agent"
 
 [project.optional-dependencies]
 dev = ["pytest"]
