@@ -1,7 +1,21 @@
-# Fleet Agent
+# ⚰️ Archived — fleet-agent
 
+> **This repo is archived.** It was an early experiment that was never fully developed.
 
-PyPI package for deploying agents to PLATO. Manages agent lifecycle: register, heartbeat, tile submission, decommission. Works with any model.
+## Why Archived
 
+Early fleet agent scaffold. Superseded by tripartite-room and lighthouse-runtime.
 
-Apache 2.0 — Cocapn fleet infrastructure.
+## Where to Go Now
+
+👉 **[SuperInstance/tripartite-room](https://github.com/SuperInstance/tripartite-room)** — the production version.
+
+## Can I Use This Code?
+
+If there's code here, fork it. Run with it. The ideas were real — the implementations just didn't land.
+
+## Fleet Context
+
+Part of the [Cocapn fleet](https://github.com/SuperInstance). The fleet now uses tile lifecycle, Lamport clocks, and simulation-first coordination.
+
+Archived: 2026-05-13
